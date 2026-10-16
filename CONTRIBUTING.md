@@ -1,0 +1,5 @@
+# Contributing / Katkı
+
+English: Open an issue describing the behavior with a small synthetic, non-secret text sample. Fork, install Node24.13+ 24.x, run `npm ci --ignore-scripts`, make a focused change, add a meaningful regression and run every command in README's tests section. Preserve private defaults, bounded memory, owner/message bindings, no message reading and minimum permissions. Document TR/EN behavior and Unicode policy changes. Tests must not need real Discord credentials. Submit a pull request with actual results and limitations. Contributions use the MIT license.
+
+Türkçe: Küçük, yapay, sır içermeyen bir metinle davranışı issue'da anlatın. Fork alın, Node24.13+ 24.x yükleyin, `npm ci --ignore-scripts` çalıştırın, odaklı değişiklik ve anlamlı regresyon testi ekleyin; README test bölümündeki bütün komutları çalıştırın. Özel yanıtları, sınırlı belleği, kullanıcı/mesaj bağlarını, mesaj okumama ve en az izin varsayılanlarını koruyun. Türkçe/İngilizce davranışı ve Unicode politika değişikliklerini belgeleyin. Testler gerçek Discord kimlik bilgisi istememelidir. Gerçek sonuç ve sınırlamalarla pull request açın. Katkılar MIT lisansına tabidir.

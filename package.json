@@ -1,0 +1,29 @@
+{
+  "name": "glyphwillow",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Private Unicode text inspection panels for Discord communities",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=24.13.0 <25"
+  },
+  "scripts": {
+    "start": "node --env-file-if-exists=.env src/main.ts",
+    "setup": "node scripts/setup.mjs",
+    "register": "node --env-file-if-exists=.env src/register.ts",
+    "test": "node --test test/*.test.ts test/*.test.mjs",
+    "lint": "biome check .",
+    "typecheck": "tsc --noEmit",
+    "verify": "node scripts/verify.mjs",
+    "check": "npm run lint && npm run typecheck && npm test && npm run verify"
+  },
+  "dependencies": {
+    "discord.js": "14.27.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.5.15",
+    "@types/node": "24.10.1",
+    "typescript": "7.0.2"
+  }
+}
